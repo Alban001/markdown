@@ -1,0 +1,59 @@
+    .editor{
+        display: flex;
+        flex-direction: column;
+        height:18rem;
+        width: 35rem;
+        background-color: rgb(212, 212, 137);
+        box-shadow: 0.5px 0.5px 10px 1px black;
+        margin: 6rem;
+        margin-bottom:10rem;
+        &__head{
+            
+            display: flex;
+            flex-direction: row;
+            padding-top: 0;
+            height: 2.5rem;
+            width: 100%;
+            background-color: rgb(223, 150, 67);
+            box-shadow: 0.5px 0.5px 3px 1px black;
+            i{
+                font-size: 1.5rem;
+                margin-right: 0.5rem;
+                padding-top: 0.5rem;
+                margin-left: 0.5rem;
+            }
+            #maximize{
+                margin-left: 74%;
+                font-size: 1.2rem;
+            }
+            h1{
+                font-size: 1.6rem;
+            }
+        }
+        &__text{
+            margin-bottom: 2rem;
+            height:15.8rem;
+            textarea{
+                margin-top: 0;
+                width: 100%;
+                background-color: rgb(245, 245, 197);
+                height: 100%;
+                overflow-y: scroll;
+            }
+        }
+    }
+    .editorMax{ 
+       
+        display: flex;
+        flex-direction: column;
+        height: 28rem;
+        width: 35rem;
+        background-color: rgb(212, 212, 137);
+        box-shadow: 0.5px 0.5px 10px 1px black;
+        margin: 6rem;
+
+        .editor__text{
+        height:25.8rem;
+      }
+    }           
+
